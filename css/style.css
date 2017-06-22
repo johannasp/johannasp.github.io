@@ -43,7 +43,7 @@ html {
 ============================================================ */
 .container {
 /*   max-width: 960px; */
-  margin: 100px auto;
+  margin: 0px auto;
 }
 /* ============================================================
   SECTIONS
@@ -92,20 +92,3 @@ section.module.parallax-2 {
 section.module.parallax-3 {
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/125980/typewriter.jpg");
 }
-
-/* @media all and (min-width: 600px) {
-  section.module h2 {
-    font-size: 42px;
-  }
-  section.module p {
-    font-size: 20px;
-  }
-  section.module.parallax h1 {
-    font-size: 20px;
-  }
-}
-@media all and (min-width: 960px) {
-  section.module.parallax h1 {
-    font-size: 160px;
-  }
-} */
