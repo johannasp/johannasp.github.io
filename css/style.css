@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Ionicons";
+  src: url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.eot?v=2.0.1");
+  src: url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.eot?v=2.0.1#iefix") format("embedded-opentype"), url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.ttf?v=2.0.1") format("truetype"), url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.woff?v=2.0.1") format("woff"), url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.svg?v=2.0.1#Ionicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
   font-family: Avenir;
@@ -16,22 +24,9 @@ html {
   clear: both;
 }
 
-.imgContainer, .intro {
-  float: left;
-}
-
-.imgContainer {
-  width: 300px;
-  margin-bottom: 100px;
-}
-
-.imgContainer img {
-  width: 100%;
-}
-
 .intro {
-  width: 55%;
-  padding-left: 20px;
+  width: 100%;
+  text-align: left;
 }
 
 .contact-form {
@@ -52,8 +47,9 @@ section.module:last-child {
   margin-bottom: 0;
 }
 section.module h2 {
-  margin-bottom: 40px;
-  font-size: 30px;
+  margin-bottom: 30px;
+  font-size: 45px;
+  text-align: left;
 }
 section.module p {
   margin-bottom: 40px;
@@ -84,11 +80,32 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
-  background-image: url("http://8-themes.com/wp-content/uploads/2015/11/Animals___Dogs_Faithful_cheerful_corgi_097573_.jpg");
+  /*background-image: "assets/corgi.jpg";*/
+  background-image: url("../assets/corgi.jpg");
+  height: 100vh;
 }
 section.module.parallax-2 {
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/125980/blueprint.jpg");
 }
 section.module.parallax-3 {
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/125980/typewriter.jpg");
+}
+section.module.parallax-4 {
+  background-image: url('../assets/pug.jpg');
+}
+
+/* ============================================================ */
+.pic-col {
+  padding-bottom: 20px;
+}
+.img-circle{
+  max-height: 30vh;
+}
+.img-center{
+  display: block;
+  margin: auto;
+}
+.social-icons {
+  font-size: 35px;
+  color: black;
 }
