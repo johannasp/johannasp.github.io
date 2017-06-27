@@ -96,6 +96,7 @@ section.module.parallax-4 {
 
 /* ============================================================ */
 .pic-col {
+  padding-top: 50px;
   padding-bottom: 20px;
 }
 .img-circle{
@@ -108,4 +109,11 @@ section.module.parallax-4 {
 .social-icons {
   font-size: 35px;
   color: black;
+}
+.work-description {
+  text-align: center;
+}
+.work-description h3 {
+  font-size: 150%;
+  font-weight: bold;
 }
