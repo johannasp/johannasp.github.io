@@ -22,6 +22,7 @@ html {
 
 .module {
   clear: both;
+  width: 100%;
 }
 
 .intro {
@@ -114,6 +115,12 @@ section.module.parallax-4 {
 .social-icons {
   font-size: 35px;
   color: black;
+}
+.center {
+  text-align: center;
+}
+.projects {
+  align-items: center;
 }
 .project-description {
   text-align: center;
