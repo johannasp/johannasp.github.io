@@ -30,20 +30,11 @@ html {
   text-align: left;
 }
 
-.contact-form {
-  height: 500px;
-}
-
-/* ============================================================
-  PRIMARY STRUCTURE
-============================================================ */
 .container {
 /*   max-width: 960px; */
   margin: 0px auto;
 }
-/* ============================================================
-  SECTIONS
-============================================================ */
+
 section.module:last-child {
   margin-bottom: 0;
 }
@@ -155,10 +146,6 @@ section.module.parallax-4 {
 }
 .job-description ul {
   padding-left: 40px;
-}
-.no-padding {
-  padding: 0px;
-  text-align: center;
 }
 
 .leadership {
