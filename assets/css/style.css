@@ -1,0 +1,9 @@
+.img-circle {
+  max-height: 30vh;
+  border-radius: 50%;
+}
+
+.center{
+  display: block;
+  margin: auto;
+}
