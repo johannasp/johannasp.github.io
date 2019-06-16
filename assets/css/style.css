@@ -9,3 +9,12 @@
 .company {
   max-height: 10vh;
 }
+h3 {
+  margin-bottom: 0px;
+}
+h4 {
+  color: darkgray;
+}
+.centered_section {
+  width: 100%;
+}
